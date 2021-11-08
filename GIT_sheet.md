@@ -9,6 +9,6 @@ Based on https://product.hubspot.com/blog/git-and-github-tutorial-for-beginners
 - git checkout \<existing branch name> : switch between existing brances
 - git branch : shows a list of existing brances. * indicates the current branch
 - git remote add origin https... : connecting to a github repo. This repo is usually referenced as "origin".
-- git push origin \<branch name> : pushing commited files to github.
+- git push origin \<branch name> : pushing commited files to github, creating a new branch named \<branch name>.
 - git pull origin \<branch name> : updating the current branch based on the changes that have been added on the github
 - git log : see the new commits, after a pull operation
