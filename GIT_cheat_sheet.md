@@ -6,7 +6,7 @@ Based on https://product.hubspot.com/blog/git-and-github-tutorial-for-beginners
 - git add \<filename> command : add a file to a commit
 - git add -A : adding all changes to a commit
 - git commit -m "Message about commit" : Creating a commit. The message is important to note the changes that are made during this commit. The commited changes will appear as a new branch in the github repository. 
-- git checkout -b <my branch name> : create a new branch
+- git checkout -b \<my branch name> : create a new branch
 - git checkout \<existing branch name> : switch between existing brances
 - git branch : shows a list of existing brances. * indicates the current branch
 - git remote add origin https... : connecting to a github repo. This repo is usually referenced as "origin".
