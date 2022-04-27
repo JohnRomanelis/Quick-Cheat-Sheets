@@ -14,7 +14,11 @@ Based on https://product.hubspot.com/blog/git-and-github-tutorial-for-beginners
 - git pull origin \<branch name> : updating the current branch based on the changes that have been added on the github
 - git log : see the new commits, after a pull operation
 
-  
+ ## Submodules
+ - git submodule add <url> :  to add a submodule
+ - git submodule init : initialize the submodule 
+ - git submodule update : update the submodule
+(See more: https://stackoverflow.com/questions/36554810/how-to-link-folder-from-a-git-repo-to-another-repo)
   
  ## .gitignore
  - Add a folder to .gitignore: folder_to_ignore/
