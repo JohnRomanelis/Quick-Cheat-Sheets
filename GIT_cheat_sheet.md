@@ -17,8 +17,11 @@ Based on https://product.hubspot.com/blog/git-and-github-tutorial-for-beginners
  ## Submodules
  - git submodule add <url> :  to add a submodule
  - git submodule init : initialize the submodule 
- - git submodule update : update the submodule
-(See more: https://stackoverflow.com/questions/36554810/how-to-link-folder-from-a-git-repo-to-another-repo)
+ - git submodule update : update the submodule - initial use
+ - git submodule update --remote : update the submodule to the latest version
+(See more: 
+ - https://stackoverflow.com/questions/36554810/how-to-link-folder-from-a-git-repo-to-another-repo
+ - https://stackoverflow.com/questions/1030169/easy-way-to-pull-latest-of-all-git-submodules )
   
  ## .gitignore
  - Add a folder to .gitignore: folder_to_ignore/
