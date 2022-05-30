@@ -15,7 +15,7 @@ Based on https://product.hubspot.com/blog/git-and-github-tutorial-for-beginners
 - git log : see the new commits, after a pull operation
 
  ## Submodules
- - git submodule add <url> :  to add a submodule
+ - git submodule add \<url> :  to add a submodule
  - git submodule init : initialize the submodule 
  - git submodule update : update the submodule - initial use
  - git submodule update --remote : update the submodule to the latest version
