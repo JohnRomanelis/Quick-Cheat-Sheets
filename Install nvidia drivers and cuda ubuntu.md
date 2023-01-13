@@ -100,4 +100,6 @@ The nvcc version should be displayed at the terminal.
 
 
 # SOURCES
-https://askubuntu.com/questions/885610/nvcc-version-command-says-nvcc-is-not-installed
+- https://askubuntu.com/questions/885610/nvcc-version-command-says-nvcc-is-not-installed
+
+- https://developer.nvidia.com/cuda-11-8-0-download-archive?target_os=Linux&target_arch=x86_64&Distribution=Ubuntu&target_version=20.04&target_type=deb_local
