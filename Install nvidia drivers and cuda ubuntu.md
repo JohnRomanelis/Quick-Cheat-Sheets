@@ -16,6 +16,11 @@
 
 > sudo apt-get autoremove
 
+4. Extra: 
+
+- If you go to the */var* directory you can find all the installed cuda versions. If you delete a cuda version there may be leftovers in this directory that take a lot of free space of the disk. 
+- If you go to the */home/username/* directory there may also be leftover *.deb* files that you can delete. Check for these files after you finish the CUDA installation anyway to free up some space. 
+
 # Install NVIDIA drivers - NVIDIA-SMI
 
 1. Update the system
@@ -29,11 +34,6 @@
 3. Restart the computer and run the following command on a terminal to test that the installation was successful
 
 > NVIDIA-SMI
-
-4. Extra: 
-
-- If you go to the */var* directory you can find all the installed cuda versions. If you delete a cuda version there may be leftovers in this directory that take a lot of free space of the disk. 
-- If you go to the */home/username/* directory there may also be leftover *.deb* files that you can delete. 
 
 # Install CUDA
 
