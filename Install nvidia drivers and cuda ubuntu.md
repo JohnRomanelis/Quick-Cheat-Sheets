@@ -71,5 +71,11 @@ At the end of this command it may also request to run another command (something
 
 > nvcc -V
 
+If it throws an error "Command 'nvcc' not found, but can be installed with: ..." You have to follow the steps in the next section to add NVCC to your path. 
+
+
+# Adding NVCC to your path
+
+
 
 # SOURCES
