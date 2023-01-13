@@ -54,7 +54,7 @@ or
 
 > sudo dpkg -i cuda-repo-ubuntu2004-11-8-local_11.8.0-520.61.05-1_amd64.deb
 
-If it throws an error about unidentified character try writting the .deb filename yourself or simply type "cuda" and hit tap to autocomplete. 
+If it throws an error about unidentified character, try writting the .deb filename yourself or simply type "cuda" and hit tap to autocomplete. 
 At the end of this command it may also request to run another command (something about a key...). Just run it and skip the next command in the NVIDIA instructions. Else just run the following command as described: 
 
 > sudo cp /var/cuda-repo-ubuntu2004-11-8-local/cuda-*-keyring.gpg /usr/share/keyrings/
