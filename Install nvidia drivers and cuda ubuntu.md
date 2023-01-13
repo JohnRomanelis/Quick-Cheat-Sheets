@@ -22,8 +22,7 @@
 
 > sudo apt-get update
 
-2. Install drivers
+2. Install NVIDIA drivers, in this case we will install the 515 version as an example
 
-> sudo apt install nvidia-driver-515  # 515 is an example, can be replaced with any other version
-
+> sudo apt install nvidia-driver-515  
 
