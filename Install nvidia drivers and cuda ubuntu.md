@@ -26,7 +26,7 @@
 
 > sudo apt install nvidia-driver-515  
 
-3. Restart and run the following command on a terminal to test that the installation was successful
+3. Restart the computer and run the following command on a terminal to test that the installation was successful
 
 > NVIDIA-SMI
 
@@ -67,7 +67,7 @@ At the end of this command it may also request to run another command (something
 
 > sudo apt-get -y install cuda-11.8
 
-9. Restart and run the following command in the terminal to test that the NVCC compiler has been successfully installed and is visible from your system. 
+9. Restart the computer and run the following command in the terminal to test that the NVCC compiler has been successfully installed and is visible from your system. 
 
 > nvcc -V
 
@@ -86,7 +86,17 @@ If it throws an error "Command 'nvcc' not found, but can be installed with: ..."
  
  > export LD_LIBRARY_PATH="/usr/local/cuda-11.8/lib64:$LD_LIBRARY_PATH"
 
-3. Hit *ctrl + o* to save the changes and press enter or return key to accept. Then hit *ctrl + x* to close the editor. 
+3. Hit ***ctrl + o*** to save the changes and press enter or return key to accept. Then hit ***ctrl + x*** to close the editor. 
+
+4. Run 
+
+> source .bashrc 
+
+5. On a new terminal (may work on the same terminal as well), run: 
+
+> nvcc -V 
+
+The nvcc version should be displayed at the terminal. 
 
 
 # SOURCES
