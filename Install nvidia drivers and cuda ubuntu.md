@@ -80,10 +80,14 @@ If it throws an error "Command 'nvcc' not found, but can be installed with: ..."
 
 > nano /home/username/.bashrc 
 
-2. Inside there add the following: 
+2. Inside there add the following: (Change 11.8 with your preferred version)
 
- >export PATH="/usr/local/cuda-8.0/bin:$PATH"
- >export LD_LIBRARY_PATH="/usr/local/cuda-8.0/lib64:$LD_LIBRARY_PATH"
+ > export PATH="/usr/local/cuda-11.8/bin:$PATH"
+ 
+ > export LD_LIBRARY_PATH="/usr/local/cuda-11.8/lib64:$LD_LIBRARY_PATH"
+
+3. Hit *ctrl + o* to save the changes and press enter or return key to accept. Then hit *ctrl + x* to close the editor. 
+
 
 # SOURCES
 https://askubuntu.com/questions/885610/nvcc-version-command-says-nvcc-is-not-installed
