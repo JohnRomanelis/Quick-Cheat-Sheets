@@ -46,6 +46,26 @@
 
 > wget https://developer.download.nvidia.com/compute/cuda/11.8.0/local_installers/cuda-repo-ubuntu2004-11-8-local_11.8.0-520.61.05-1_amd64.deb
 
+or 
+
+> sudo wget https://developer.download.nvidia.com/compute/cuda/11.8.0/local_installers/cuda-repo-ubuntu2004-11-8-local_11.8.0-520.61.05-1_amd64.deb
+
+6. Run the following command. 
+
+> sudo dpkg -i cuda-repo-ubuntu2004-11-8-local_11.8.0-520.61.05-1_amd64.deb
+
+If it throws an error about unidentified character try writting the .deb filename yourself or simply type "cuda" and hit tap to autocomplete. 
+At the end of this command it may also request to run another command (something about a key...). Just run it :P
+
+7. Run the two following commands as in the instructions of the NVIDIA website
+
+> sudo cp /var/cuda-repo-ubuntu2004-11-8-local/cuda-*-keyring.gpg /usr/share/keyrings/
+
+> sudo apt-get update
+
+8. Do NOT run the last command as suggested in the NVIDIA website as it will install the latest CUDA version and not the one you want to install. Instead you have to specify the version by adding -version at the end of the command. 
+
+> sudo apt-get -y install cuda-11.8
 
 
 
