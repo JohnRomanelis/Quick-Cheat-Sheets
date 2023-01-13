@@ -26,3 +26,14 @@
 
 > sudo apt install nvidia-driver-515  
 
+3. Restart and run the following command on a terminal to test that the installation was successful
+
+> NVIDIA-SMI
+
+
+# Install CUDA
+
+1. Go to the NVIDIA site to find all the available cuda versions https://developer.nvidia.com/cuda-toolkit-archive
+
+
+# SOURCES
