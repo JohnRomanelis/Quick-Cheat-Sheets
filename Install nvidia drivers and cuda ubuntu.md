@@ -1,18 +1,29 @@
 # Removing older nvidia/cuda versions
 
-Run the following command to remove all files that start with nvidia in their name:
+1. Remove all files that start with nvidia in their name:
 
 > sudo apt-get remove --purge '^nvidia-.*'
 
-Run the following command to remoce all files that start with cuda in their name:
+2. Remove all files that start with cuda in their name:
 
 <sub>Purging cuda is not usually required, but it may be the solve if there are cuda leftovers that do not have nvidia in their name.</sub>
 
 > sudo apt-get remove --purge '^cuda-.*'
 
-Run the following commands:
+3. Run the following commands:
 
 > sudo apt-get autoclean
+
 > sudo apt-get autoremove
+
+# Install NVIDIA drivers - NVIDIA-SMI
+
+1. Update the system
+
+> sudo apt-get update
+
+2. Install drivers
+
+> sudo apt install nvidia-driver-515  # 515 is an example, can be replaced with any other version
 
 
