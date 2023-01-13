@@ -30,6 +30,10 @@
 
 > NVIDIA-SMI
 
+4. Extra: 
+
+- If you go to the */var* directory you can find all the installed cuda versions. If you delete a cuda version there may be leftovers in this directory that take a lot of free space of the disk. 
+- If you go to the */home/username/* directory there may also be leftover *.deb* files that you can delete. 
 
 # Install CUDA
 
