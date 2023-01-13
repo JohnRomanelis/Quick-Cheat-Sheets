@@ -67,6 +67,9 @@ At the end of this command it may also request to run another command (something
 
 > sudo apt-get -y install cuda-11.8
 
+9. Restart and run the following command in the terminal to test that the NVCC compiler has been successfully installed and is visible from your system. 
+
+> nvcc -V
 
 
 # SOURCES
