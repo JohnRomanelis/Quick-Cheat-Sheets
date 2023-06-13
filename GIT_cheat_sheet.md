@@ -30,4 +30,5 @@ See more:
   
  ## .gitignore
  - Add a folder to .gitignore: folder_to_ignore/
+ - Ignore all files with a specific subfix: *.subfix
   
