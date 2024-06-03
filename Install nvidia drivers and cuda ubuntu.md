@@ -1,3 +1,5 @@
+*For Ubuntu 22.04 and CUDA 11.8 check this link: https://gist.github.com/MihailCosmin/affa6b1b71b43787e9228c25fe15aeba*
+
 # Removing older nvidia/cuda versions
 
 1. Remove all files that start with nvidia in their name:
