@@ -4,4 +4,5 @@
 - On the local machine on a browser go to: http://localhost:1234/
 
 1234: port to use on local device
+
 9000: port to use on remote device
