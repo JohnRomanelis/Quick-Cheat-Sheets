@@ -25,6 +25,7 @@
 14. Past the token on the browser page that VSCODE opened before. (If page is blank you need to refresh it)
 
 Otherwise:
+
 12. If no pop-up appears open a terminal, on the local machine, navigate to the directory that contains the key-pair.pem file.
 13. Run `ssh -NL 1234:localhost:9000 remote_user@ip key-pair.pem`
 14. Go on a browser and go to: http://localhost:1234/
