@@ -16,7 +16,7 @@
 8. Follow steps 1-3 and then after pressing the `Connect to Hosts...` option you should the IP of the remote machine. Click on it.
 9. A new visual studio window should open that is connected to the remote device.
 10. Navigate to the desired path and activate the conda environment that has jupyter lab installed.
-11. Run `jupyter lab --no-browser --ip=0.0.0.0 --port=9000`
+11. Run ```jupyter lab --no-browser --ip=0.0.0.0 --port=9000```
 12. VSCode should create a pop up window that says that it has detected the jupyter notebook and gives you the option to open it on a browser. Click this option.
 13. Go back to the terminal on the remote machine that is running jupyter lab and copy the token from the connection URLS. It is among the first messages that are displayed on the terminal after you run jupyter lab.
 14. Past the token on the browser page that VSCODE opened before. (If page is blank you need to refresh it)
@@ -33,9 +33,9 @@ In command 13 and 14:
 # Uploading/Downloading Data to/from S3
 1. Create an IAM user and an ACCESS KEY.
 2. On the EC2 instance connect to the aws cli. 
-   `aws configure`
+   ```aws configure```
 3. Use the AWS CLI sync command to sync files:
    - To sync from EC2 to S3:
-     `aws s3 sync /path/to/local/directory s3://your-bucket-name`
+     ```aws s3 sync /path/to/local/directory s3://your-bucket-name```
    - To sync from S3 to EC2:
-     `aws s3 sync s3://your-bucket-name /path/to/local/directory`
+     ```aws s3 sync s3://your-bucket-name /path/to/local/directory```
