@@ -16,7 +16,8 @@
 8. Follow steps 1-3 and then after pressing the `Connect to Hosts...` option you should the IP of the remote machine. Click on it.
 9. A new visual studio window should open that is connected to the remote device.
 10. Navigate to the desired path and activate the conda environment that has jupyter lab installed.
-11. Run ```jupyter lab --no-browser --ip=0.0.0.0 --port=9000```
+11. Run:  
+```jupyter lab --no-browser --ip=0.0.0.0 --port=9000```
 12. VSCode should create a pop up window that says that it has detected the jupyter notebook and gives you the option to open it on a browser. Click this option.
 13. Go back to the terminal on the remote machine that is running jupyter lab and copy the token from the connection URLS. It is among the first messages that are displayed on the terminal after you run jupyter lab.
 14. Past the token on the browser page that VSCODE opened before. (If page is blank you need to refresh it)
