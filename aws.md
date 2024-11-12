@@ -29,3 +29,13 @@ Otherwise:
 In command 13 and 14:
 - 1234: port to use on local device
 - 9000: port to use on remote device
+
+# Uploading/Downloading Data to/from S3
+1. Create an IAM user and an ACCESS KEY.
+2. On the EC2 instance connect to the aws cli. 
+   `aws configure`
+3. Use the AWS CLI sync command to sync files:
+   - To sync from EC2 to S3:
+     `aws s3 sync /path/to/local/directory s3://your-bucket-name`
+   - To sync from S3 to EC2:
+     `aws s3 sync s3://your-bucket-name /path/to/local/directory`
