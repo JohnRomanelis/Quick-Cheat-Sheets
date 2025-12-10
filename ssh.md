@@ -47,6 +47,33 @@ UsePAM yes                   # Standard system module setting
 sudo systemctl restart ssh
 ```
 
+You can also set connection through a specific port. Default is port 22, but to reduce spam attacks from bots you can set something like port 2222. 
+On the sshd.config just add: 
+
+```plaintext
+Port 2222
+```
+
+In this case you should also enable this port in the firewall.
+1. Run the following command to check if firewall is active:
+ ```bash
+ sudo ufw status
+```
+2. If inactive, then first add the port 2222 by running:
+```bash
+sudo ufw allow 2222/tcp
+```
+and then run:
+```bash
+sudo ufw enable
+```
+and 
+```bash
+sudo ufw reload
+```
+
+
+
 ## 3. Monitoring Connections
 
 Check for Successful Logins:
