@@ -59,11 +59,11 @@ In this case you should also enable this port in the firewall.
  ```bash
  sudo ufw status
 ```
-2. If inactive, then first add the port 2222 by running:
+2. First add the port 2222 by running:
 ```bash
 sudo ufw allow 2222/tcp
 ```
-and then run:
+and then run the following if ufw status is 'inactive'
 ```bash
 sudo ufw enable
 ```
